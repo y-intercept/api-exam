@@ -1,0 +1,28 @@
+{
+  "name": "api-exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "snowboardJSON.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "node-http-error": "^1.0.0",
+    "pouchdb-http": "^6.0.2",
+    "pouchdb-mapreduce": "^6.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-intercept/api-exam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/y-intercept/api-exam/issues"
+  },
+  "homepage": "https://github.com/y-intercept/api-exam#readme"
+}
