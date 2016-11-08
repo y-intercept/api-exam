@@ -239,3 +239,5 @@ function callback(msgHeader) {
 snowboards.forEach(function(board) {
   dalNoSQL.createEntry(board, callback('BOARD CREATED:\n'))
 })
+
+createView(boardByType)
