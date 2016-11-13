@@ -7,7 +7,7 @@ Contents of this repository simulate calls made to a non-relational database thr
 
 * after cloning repo run `$ npm install` to download depedencies
 * run `$ node snowboardJSON.js` to populate database 
-* run `$ addViews.js` to create views within CouchDB
+* run `$ node addViews.js` to create views within CouchDB
 * run `$ node app.js`
 * test away!
 
