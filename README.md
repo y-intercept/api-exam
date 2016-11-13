@@ -35,6 +35,8 @@ Contents of this repository simulate calls made to a non-relational database thr
   * snowboard_rossignol_one_magtek
   * snowboard_salomon_super8
   * snowboard_salomon_villain
+  * snowboard_stepchild_mai_tai
+  * snowboard_stepchild_sleazy_rider
 
 #### GET to http://localhost:4000/snowboard_type
  * Search by "Type"
