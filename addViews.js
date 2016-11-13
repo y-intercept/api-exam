@@ -13,9 +13,8 @@ const boardByType = {
           emit(doc.type, {
             "make": doc.make,
             "model": doc.model,
-            "length": doc.length,
-            "flex": doc.flex,
-            "_id": doc._id
+            "length": doc.length + 'cm',
+            "flex": doc.flex
           });
         }
       }.toString()
@@ -30,11 +29,10 @@ const boardByMake = {
       map: function(doc) {
         if (doc.description === "snowboard") {
           emit(doc.make, {
+            "make": doc.make,
             "model": doc.model,
-            "length": doc.length,
-            "type": doc.type,
-            "flex": doc.flex,
-            "_id": doc._id
+            "length": doc.length + 'cm',
+            "flex": doc.flex
           });
         }
       }.toString()
@@ -51,9 +49,8 @@ const boardByLength = {
           emit(doc.length, {
             "make": doc.make,
             "model": doc.model,
-            "type": doc.type,
-            "flex": doc.flex,
-            "_id": doc._id
+            "length": doc.length + 'cm',
+            "flex": doc.flex
           });
         }
       }.toString()
