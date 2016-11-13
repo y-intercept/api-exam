@@ -38,11 +38,13 @@ Contents of this repository simulate calls made to a non-relational database thr
 
 #### GET to http://localhost:4000/snowboard_type
  * Search by "Type"
+ * ex. http://localhost:4000/snowboard_type?Type=park
   * park
   * all_mountain
 
 #### GET to http://localhost:4000/snowboard_make
  * Search by "Make"
+ * ex. http://localhost:4000/snowboard_make?Make=ride
   * burton
   * capita
   * flow
@@ -57,6 +59,7 @@ Contents of this repository simulate calls made to a non-relational database thr
  
 #### GET to http://localhost:4000/snowboard_length
  * Search by "Length"
+ * ex. http://localhost:4000/snowboard_length?Length=157
    * 153
    * 154
    * 155 
