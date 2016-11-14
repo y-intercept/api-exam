@@ -58,6 +58,7 @@ Contents of this repository simulate calls made to a non-relational database (Co
   * rome
   * rossignol
   * salomon
+  * stepchild
  
 #### GET to http://localhost:4000/snowboard_length
  * Search by "Length"
