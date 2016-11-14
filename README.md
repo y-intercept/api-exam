@@ -1,7 +1,7 @@
 ## JRS Code 2016 API Exam
 ### 2016 Transworld Snowboarding Magazine 'Good Wood' snowboards
 
-Contents of this repository simulate calls made to a non-relational database through a custom API and DAL as one might find when browsing a Transworld Snowboarding (TWS) Magazine's annual selection of top snowboards for 2016. 
+Contents of this repository simulate calls made to a non-relational database (CouchDB) through a custom API and DAL as one might find when browsing a Transworld Snowboarding (TWS) Magazine's annual selection of top snowboards for 2016. 
 
 #### Instructions:
 
