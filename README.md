@@ -13,10 +13,10 @@ Contents of this repository simulate calls made to a non-relational database (Co
 
 ### Test Endpoints (run within Postman)
  
-#### GET to http://localhost:4000/snowboards
+#### GET to `http://localhost:4000/snowboards`
  * path to all snowboards
  
-#### GET to http://localhost:4000/snowboards/:id 
+#### GET to `http://localhost:4000/snowboards/:id` 
  * path to specific model 
   * snowboard_burton_process_off_axis
   * snowboard_capita_mercury
@@ -38,15 +38,15 @@ Contents of this repository simulate calls made to a non-relational database (Co
   * snowboard_stepchild_mai_tai
   * snowboard_stepchild_sleazy_rider
 
-#### GET to http://localhost:4000/snowboard_type
+#### GET to `http://localhost:4000/snowboard_type`
  * Search by "Type"
- * ex. http://localhost:4000/snowboard_type?Type=park
+ * ex. `http://localhost:4000/snowboard_type?Type=park`
   * park
   * all_mountain
 
-#### GET to http://localhost:4000/snowboard_make
+#### GET to `http://localhost:4000/snowboard_make`
  * Search by "Make"
- * ex. http://localhost:4000/snowboard_make?Make=ride
+ * ex. `http://localhost:4000/snowboard_make?Make=ride`
   * burton
   * capita
   * flow
